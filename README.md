@@ -58,7 +58,7 @@ source venv/bin/activate #Mac/Linux:
 pip install -r requirements.txt
 ```
 
-## 2. Run the Application
+## 2. Run the Application Locally
 Launch the Streamlit interface to start interacting
 ```bash
 streamlit run app.py
