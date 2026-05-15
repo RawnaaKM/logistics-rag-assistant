@@ -7,7 +7,7 @@ from query_data import query_rag
 # 1. PAGE CONFIGURATION
 st.set_page_config(
     page_title="Logistics RAG Assistant",       # title of tab
-    page_icon="logos\icon.png",                   # icon
+    page_icon="logos/icon.png",                   # icon
     layout="wide",                          # full width layout
 )
 
@@ -114,7 +114,7 @@ with st.sidebar:
 
     col1, col2 = st.columns([1, 4])
     with col1:
-        st.image("logos\setiings.png", width=50)
+        st.image("logos/setiings.png", width=50)
     with col2:
         st.markdown('<div class="text">Settings',
                     unsafe_allow_html=True
@@ -131,7 +131,7 @@ with st.sidebar:
 # 4. HEADER SECTION
 col1, col2 = st.columns([1, 20])
 with col1:
-    st.image("logos\icon.png", width=60)
+    st.image("logos/icon.png", width=60)
 
 with col2:
     st.markdown('<div class="title">Logistics Assistant</div>', unsafe_allow_html=True)
@@ -186,7 +186,7 @@ if prompt:
         with col1:
             header_col1, header_col2 = st.columns([1, 15])
             with header_col1:
-                st.image("logos\\retrieval.png", width=50)
+                st.image("logos/retrieval.png", width=50)
             with header_col2:
                 st.markdown("### Retrieved Chunks")
                 
@@ -203,7 +203,7 @@ if prompt:
         with col2:
             header_col1, header_col2 = st.columns([1, 7.5])
             with header_col1:
-                st.image("logos\source.png", width=50)
+                st.image("logos/source.png", width=50)
             with header_col2:
                 st.markdown("### Sources")
                 
