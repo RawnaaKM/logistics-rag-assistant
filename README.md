@@ -1,5 +1,5 @@
 # RAG System
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_svg.svg)](https://logistics-rag-assistant.streamlit.app/)
+[![Try it on Streamlit Cloud](https://static.streamlit.io/badges/streamlit_badge_svg.svg)](https://logistics-rag-assistant.streamlit.app/)
 
 This project is a **Retrieval-Augmented Generation (RAG) system** built using deep learning techniques. It allows users to query PDF documents using natural language by combining vector search (ChromaDB) with a large language model.
 
