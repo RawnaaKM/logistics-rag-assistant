@@ -1,6 +1,7 @@
 import os
-from langchain_core.prompts import ChatPromptTemplate
+from dotenv import load_dotenv
 from langchain_groq import ChatGroq
+from langchain_core.prompts import ChatPromptTemplate
 
 PROMPT_TEMPLATE = """
 Answer the question based only on the following context:
@@ -29,7 +30,7 @@ def query_rag(query_text: str, top_k: int,db):
     
     model = ChatGroq(
             model="llama-3.1-8b-instant",
-            api_key="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"
+            api_key=os.getenv("GROQ_API_KEY")
     )
     
     response = model.invoke(prompt).content
