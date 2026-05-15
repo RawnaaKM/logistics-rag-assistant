@@ -9,9 +9,9 @@ chromadb
 sentence-transformers
 
 python-dotenv
-
 pypdf
 
 requests
-
 numpy
+
+torchvision==0.26.0
