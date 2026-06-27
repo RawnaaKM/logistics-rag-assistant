@@ -9,7 +9,7 @@ The system:
 - Retrieves relevant context for user queries
 - Generates responses using an LLM
 
-## Project Structure
+## 📁 Project Structure
     project/
     │
     ├── populate_database.py   
